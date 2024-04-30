@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+
+  <style>
+  .dropdown {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+  }
+  .dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 0; /* Aligning dropdown contents to the left */
+  }
+  .dropdown:hover .dropdown-contents {
+    display: block;
+  }
+  .dropdown-contents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-contents a:hover {
+    background-color: #f1f1f1;
+  }
+  section{
+  padding: 160px;
+}
+footer{
+  background-color: deepskyblue;
+  padding: 30px;
+}
+</style>
+</head>
+<header>
+  <body bgcolor="yellowgreen">
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+      <img src="./logo.JFIF" width="50" height="30" alt="logo">
+      <a href="./home.html" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">HOME</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">CONTACT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./airport.php" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">airport</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./flight.php" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">flight</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./payment.php" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">payment</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./reservation.php" style="padding: 10px; color: white; background-color: hotpink; text-decoration: none; margin-right: 15px;">reservation</a></li>
+    
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+  </ul>
+  <!-- <div class="col-3 offset">-->
+  <form class="d-flex" role="search" action="search.php">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+
+  </form>
+</header>
+  <center>
+    <section id="home" style="display: block;">
+      <h1>all about to airline_online_ticket_booking</h1>
+        </p>
+<h1><u> About Us</u></h1>
+<bold> 
+<bold> <p> <pre>
+About Us
+
+Welcome to Rwandair- Your Premier Destination for Hassle-Free Airline Ticket Booking!
+
+At Rwandair, we're passionate about making travel easier, more accessible, and more enjoyable for everyone. Our platform was founded with a simple yet ambitious goal: to provide travelers with a seamless and convenient way to book flights online, all while offering exceptional customer service and unbeatable value. </pre> </p> </bold>
+
+<h1><bold><u> OUR MISSION</u></bold></h1>
+
+<p> <pre> Our mission at Rwandair is to empower travelers to explore the world with ease. We strive to achieve this by offering a user-friendly platform that combines cutting-edge technology with exceptional customer service.</pre></p> Whether you're planning a family vacation, a business trip, or a solo adventure,Easy Booking Process: Our intuitive search engine and booking interface allow you to find and reserve flights in just a few clicks.
+<p><pre>Secure Payment Options: We prioritize the security of your transactions, offering a range of payment methods and encryption protocols to safeguard your personal information.</pre></p>
+Real-Time Flight Updates: Stay informed about your travel itinerary with instant updates on flight status, delays, and gate changes.<p><pre>
+24/7 Customer Support: Our dedicated support team is available round-the-clock to assist you with any questions or concerns you may have.</pre></p> 
+
+
+<h1><bold><u> WHAT DO WE DO</u></bold></h1>
+<p> 
+  <pre> 
+At Rwandair, we specialize in providing travelers with a seamless and hassle-free way to book airline tickets online. Our platform offers a comprehensive range of features and services designed to make your travel experience as smooth and enjoyable as possible. </pre>
+</p>
+
+    </section>
+
+
+  <footer>
+  <marquee><i style="color: green;">&copy; 2024</i><b>WEB TECHNOLOGY CAT</b></marquee></footer>
+  </footer> 
+</body>
+</html>
